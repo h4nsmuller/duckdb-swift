@@ -10,9 +10,6 @@
 #line 0 "src/parser/tableref/column_data_ref.cpp"
 #include "src/parser/tableref/column_data_ref.cpp"
 
-#line 0 "src/parser/tableref/delimgetref.cpp"
-#include "src/parser/tableref/delimgetref.cpp"
-
 #line 0 "src/parser/tableref/emptytableref.cpp"
 #include "src/parser/tableref/emptytableref.cpp"
 

@@ -13,6 +13,7 @@
 #include "duckdb/planner/expression/bound_columnref_expression.hpp"
 #include "duckdb/storage/table/scan_state.hpp"
 #include "duckdb/common/optional_ptr.hpp"
+#include "duckdb/common/sorting/topn_heap.hpp"
 
 namespace duckdb {
 
@@ -40,15 +41,11 @@ bool TopN::CanOptimize(LogicalOperator &op, optional_ptr<ClientContext> context)
 
 		if (child_op->has_estimated_cardinality) {
 			// only check if we should switch to full sorting if we have estimated cardinality
-			auto constant_limit = static_cast<double>(limit.limit_val.GetConstantValue());
+			auto constant_limit = limit.limit_val.GetConstantValue();
 			if (limit.offset_val.Type() == LimitNodeType::CONSTANT_VALUE) {
-				constant_limit += static_cast<double>(limit.offset_val.GetConstantValue());
+				constant_limit += limit.offset_val.GetConstantValue();
 			}
-			auto child_card = static_cast<double>(child_op->estimated_cardinality);
-
-			// if the limit is > 0.7% of the child cardinality, sorting the whole table is faster
-			bool limit_is_large = constant_limit > 5000;
-			if (constant_limit > child_card * 0.007 && limit_is_large) {
+			if (!TopNHeap::CanOptimize(constant_limit, child_op->estimated_cardinality)) {
 				return false;
 			}
 		}
@@ -184,6 +181,7 @@ unique_ptr<LogicalOperator> TopN::Optimize(unique_ptr<LogicalOperator> op) {
 			offset_val = limit.offset_val.GetConstantValue();
 		}
 		auto topn = make_uniq<LogicalTopN>(std::move(order_by.orders), limit_val, offset_val);
+		topn->unpruned_offset = limit.unpruned_offset;
 		topn->AddChild(std::move(order_by.children[0]));
 		auto cardinality = limit_val;
 		if (topn->children[0]->has_estimated_cardinality && topn->children[0]->estimated_cardinality < limit_val) {

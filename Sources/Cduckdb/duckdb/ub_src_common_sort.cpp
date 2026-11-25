@@ -25,3 +25,9 @@
 #line 0 "src/common/sort/sorted_run_merger.cpp"
 #include "src/common/sort/sorted_run_merger.cpp"
 
+#line 0 "src/common/sort/topn_heap.cpp"
+#include "src/common/sort/topn_heap.cpp"
+
+#line 0 "src/common/sort/topn_sort.cpp"
+#include "src/common/sort/topn_sort.cpp"
+

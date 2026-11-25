@@ -13,9 +13,6 @@
 #line 0 "extension/core_functions/scalar/generic/current_setting.cpp"
 #include "extension/core_functions/scalar/generic/current_setting.cpp"
 
-#line 0 "extension/core_functions/scalar/generic/hash.cpp"
-#include "extension/core_functions/scalar/generic/hash.cpp"
-
 #line 0 "extension/core_functions/scalar/generic/least.cpp"
 #include "extension/core_functions/scalar/generic/least.cpp"
 

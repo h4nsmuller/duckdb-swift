@@ -1,5 +1,14 @@
+#line 0 "src/common/types/variant/parquet_variant_encoding.cpp"
+#include "src/common/types/variant/parquet_variant_encoding.cpp"
+
+#line 0 "src/common/types/variant/parquet_variant_iterator.cpp"
+#include "src/common/types/variant/parquet_variant_iterator.cpp"
+
 #line 0 "src/common/types/variant/variant.cpp"
 #include "src/common/types/variant/variant.cpp"
+
+#line 0 "src/common/types/variant/variant_binary_decoder.cpp"
+#include "src/common/types/variant/variant_binary_decoder.cpp"
 
 #line 0 "src/common/types/variant/variant_comparison.cpp"
 #include "src/common/types/variant/variant_comparison.cpp"

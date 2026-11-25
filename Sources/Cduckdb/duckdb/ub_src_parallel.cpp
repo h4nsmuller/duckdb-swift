@@ -46,8 +46,20 @@
 #line 0 "src/parallel/pipeline_schedule.cpp"
 #include "src/parallel/pipeline_schedule.cpp"
 
+#line 0 "src/parallel/progress_verifier.cpp"
+#include "src/parallel/progress_verifier.cpp"
+
+#line 0 "src/parallel/runtime_filter_schedule.cpp"
+#include "src/parallel/runtime_filter_schedule.cpp"
+
+#line 0 "src/parallel/scan_affinity_queue.cpp"
+#include "src/parallel/scan_affinity_queue.cpp"
+
 #line 0 "src/parallel/scan_read_ahead.cpp"
 #include "src/parallel/scan_read_ahead.cpp"
+
+#line 0 "src/parallel/sharded_counter.cpp"
+#include "src/parallel/sharded_counter.cpp"
 
 #line 0 "src/parallel/task_executor.cpp"
 #include "src/parallel/task_executor.cpp"

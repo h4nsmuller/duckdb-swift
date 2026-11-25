@@ -34,6 +34,9 @@
 #line 0 "src/storage/magic_bytes.cpp"
 #include "src/storage/magic_bytes.cpp"
 
+#line 0 "src/storage/object_cache.cpp"
+#include "src/storage/object_cache.cpp"
+
 #line 0 "src/storage/open_file_storage_extension.cpp"
 #include "src/storage/open_file_storage_extension.cpp"
 

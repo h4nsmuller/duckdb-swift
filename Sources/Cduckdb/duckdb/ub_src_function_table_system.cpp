@@ -49,6 +49,9 @@
 #line 0 "src/function/table/system/duckdb_keywords.cpp"
 #include "src/function/table/system/duckdb_keywords.cpp"
 
+#line 0 "src/function/table/system/duckdb_live_query_metrics.cpp"
+#include "src/function/table/system/duckdb_live_query_metrics.cpp"
+
 #line 0 "src/function/table/system/duckdb_log.cpp"
 #include "src/function/table/system/duckdb_log.cpp"
 
@@ -138,6 +141,9 @@
 
 #line 0 "src/function/table/system/pragma_user_agent.cpp"
 #include "src/function/table/system/pragma_user_agent.cpp"
+
+#line 0 "src/function/table/system/system_catalog_scanner.cpp"
+#include "src/function/table/system/system_catalog_scanner.cpp"
 
 #line 0 "src/function/table/system/test_all_types.cpp"
 #include "src/function/table/system/test_all_types.cpp"

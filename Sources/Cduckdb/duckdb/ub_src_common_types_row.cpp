@@ -1,3 +1,6 @@
+#line 0 "src/common/types/row/integer_partitioned_tuple_data.cpp"
+#include "src/common/types/row/integer_partitioned_tuple_data.cpp"
+
 #line 0 "src/common/types/row/partitioned_tuple_data.cpp"
 #include "src/common/types/row/partitioned_tuple_data.cpp"
 

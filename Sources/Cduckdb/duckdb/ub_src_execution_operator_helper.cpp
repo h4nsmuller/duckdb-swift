@@ -1,9 +1,6 @@
 #line 0 "src/execution/operator/helper/launch_external_resource.cpp"
 #include "src/execution/operator/helper/launch_external_resource.cpp"
 
-#line 0 "src/execution/operator/helper/physical_batch_collector.cpp"
-#include "src/execution/operator/helper/physical_batch_collector.cpp"
-
 #line 0 "src/execution/operator/helper/physical_connect.cpp"
 #include "src/execution/operator/helper/physical_connect.cpp"
 
@@ -12,9 +9,6 @@
 
 #line 0 "src/execution/operator/helper/physical_disconnect.cpp"
 #include "src/execution/operator/helper/physical_disconnect.cpp"
-
-#line 0 "src/execution/operator/helper/physical_execute.cpp"
-#include "src/execution/operator/helper/physical_execute.cpp"
 
 #line 0 "src/execution/operator/helper/physical_explain_analyze.cpp"
 #include "src/execution/operator/helper/physical_explain_analyze.cpp"

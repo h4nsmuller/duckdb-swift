@@ -4,6 +4,9 @@
 #line 0 "src/storage/statistics/base_statistics.cpp"
 #include "src/storage/statistics/base_statistics.cpp"
 
+#line 0 "src/storage/statistics/bignum_stats.cpp"
+#include "src/storage/statistics/bignum_stats.cpp"
+
 #line 0 "src/storage/statistics/column_statistics.cpp"
 #include "src/storage/statistics/column_statistics.cpp"
 
@@ -21,6 +24,9 @@
 
 #line 0 "src/storage/statistics/segment_statistics.cpp"
 #include "src/storage/statistics/segment_statistics.cpp"
+
+#line 0 "src/storage/statistics/stats_struct_fields.cpp"
+#include "src/storage/statistics/stats_struct_fields.cpp"
 
 #line 0 "src/storage/statistics/string_stats.cpp"
 #include "src/storage/statistics/string_stats.cpp"

@@ -1,8 +1,8 @@
 #line 0 "src/logging/log_manager.cpp"
 #include "src/logging/log_manager.cpp"
 
-#line 0 "src/logging/log_storage.cpp"
-#include "src/logging/log_storage.cpp"
+#line 0 "src/logging/log_sink.cpp"
+#include "src/logging/log_sink.cpp"
 
 #line 0 "src/logging/log_types.cpp"
 #include "src/logging/log_types.cpp"

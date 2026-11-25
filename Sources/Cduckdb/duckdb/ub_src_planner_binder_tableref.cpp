@@ -7,9 +7,6 @@
 #line 0 "src/planner/binder/tableref/bind_column_data_ref.cpp"
 #include "src/planner/binder/tableref/bind_column_data_ref.cpp"
 
-#line 0 "src/planner/binder/tableref/bind_delimgetref.cpp"
-#include "src/planner/binder/tableref/bind_delimgetref.cpp"
-
 #line 0 "src/planner/binder/tableref/bind_emptytableref.cpp"
 #include "src/planner/binder/tableref/bind_emptytableref.cpp"
 
@@ -21,9 +18,6 @@
 
 #line 0 "src/planner/binder/tableref/bind_match_recognize_ref.cpp"
 #include "src/planner/binder/tableref/bind_match_recognize_ref.cpp"
-
-#line 0 "src/planner/binder/tableref/bind_named_parameters.cpp"
-#include "src/planner/binder/tableref/bind_named_parameters.cpp"
 
 #line 0 "src/planner/binder/tableref/bind_pivot.cpp"
 #include "src/planner/binder/tableref/bind_pivot.cpp"

@@ -22,6 +22,9 @@
 #line 0 "src/optimizer/rule/date_part_simplification.cpp"
 #include "src/optimizer/rule/date_part_simplification.cpp"
 
+#line 0 "src/optimizer/rule/date_part_to_func.cpp"
+#include "src/optimizer/rule/date_part_to_func.cpp"
+
 #line 0 "src/optimizer/rule/date_trunc_simplification.cpp"
 #include "src/optimizer/rule/date_trunc_simplification.cpp"
 
@@ -66,6 +69,12 @@
 
 #line 0 "src/optimizer/rule/not_conjunction_simplification.cpp"
 #include "src/optimizer/rule/not_conjunction_simplification.cpp"
+
+#line 0 "src/optimizer/rule/not_constant_or_null_simplification.cpp"
+#include "src/optimizer/rule/not_constant_or_null_simplification.cpp"
+
+#line 0 "src/optimizer/rule/or_range_merge.cpp"
+#include "src/optimizer/rule/or_range_merge.cpp"
 
 #line 0 "src/optimizer/rule/ordered_aggregate_optimizer.cpp"
 #include "src/optimizer/rule/ordered_aggregate_optimizer.cpp"

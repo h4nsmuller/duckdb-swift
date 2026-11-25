@@ -4,8 +4,14 @@
 #line 0 "src/parser/parsed_data/alter_info.cpp"
 #include "src/parser/parsed_data/alter_info.cpp"
 
+#line 0 "src/parser/parsed_data/alter_macro_info.cpp"
+#include "src/parser/parsed_data/alter_macro_info.cpp"
+
 #line 0 "src/parser/parsed_data/alter_scalar_function_info.cpp"
 #include "src/parser/parsed_data/alter_scalar_function_info.cpp"
+
+#line 0 "src/parser/parsed_data/alter_schema_info.cpp"
+#include "src/parser/parsed_data/alter_schema_info.cpp"
 
 #line 0 "src/parser/parsed_data/alter_table_function_info.cpp"
 #include "src/parser/parsed_data/alter_table_function_info.cpp"
@@ -27,9 +33,6 @@
 
 #line 0 "src/parser/parsed_data/create_aggregate_function_info.cpp"
 #include "src/parser/parsed_data/create_aggregate_function_info.cpp"
-
-#line 0 "src/parser/parsed_data/create_collation_info.cpp"
-#include "src/parser/parsed_data/create_collation_info.cpp"
 
 #line 0 "src/parser/parsed_data/create_coordinate_system_info.cpp"
 #include "src/parser/parsed_data/create_coordinate_system_info.cpp"
@@ -93,6 +96,9 @@
 
 #line 0 "src/parser/parsed_data/exported_table_data.cpp"
 #include "src/parser/parsed_data/exported_table_data.cpp"
+
+#line 0 "src/parser/parsed_data/external_resource_options.cpp"
+#include "src/parser/parsed_data/external_resource_options.cpp"
 
 #line 0 "src/parser/parsed_data/extra_drop_info.cpp"
 #include "src/parser/parsed_data/extra_drop_info.cpp"

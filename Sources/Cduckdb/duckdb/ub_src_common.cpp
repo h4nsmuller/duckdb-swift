@@ -64,9 +64,6 @@
 #line 0 "src/common/exception_format_value.cpp"
 #include "src/common/exception_format_value.cpp"
 
-#line 0 "src/common/extra_type_info.cpp"
-#include "src/common/extra_type_info.cpp"
-
 #line 0 "src/common/file_buffer.cpp"
 #include "src/common/file_buffer.cpp"
 
@@ -97,6 +94,9 @@
 #line 0 "src/common/local_file_system.cpp"
 #include "src/common/local_file_system.cpp"
 
+#line 0 "src/common/logical_type_info.cpp"
+#include "src/common/logical_type_info.cpp"
+
 #line 0 "src/common/memory_mapped_file.cpp"
 #include "src/common/memory_mapped_file.cpp"
 
@@ -123,6 +123,9 @@
 
 #line 0 "src/common/process_util.cpp"
 #include "src/common/process_util.cpp"
+
+#line 0 "src/common/query_context.cpp"
+#include "src/common/query_context.cpp"
 
 #line 0 "src/common/radix_partitioning.cpp"
 #include "src/common/radix_partitioning.cpp"

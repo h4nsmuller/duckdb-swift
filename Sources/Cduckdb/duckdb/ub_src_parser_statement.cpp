@@ -58,14 +58,14 @@
 #line 0 "src/parser/statement/multi_statement.cpp"
 #include "src/parser/statement/multi_statement.cpp"
 
+#line 0 "src/parser/statement/passthrough_statement.cpp"
+#include "src/parser/statement/passthrough_statement.cpp"
+
 #line 0 "src/parser/statement/pragma_statement.cpp"
 #include "src/parser/statement/pragma_statement.cpp"
 
 #line 0 "src/parser/statement/prepare_statement.cpp"
 #include "src/parser/statement/prepare_statement.cpp"
-
-#line 0 "src/parser/statement/relation_statement.cpp"
-#include "src/parser/statement/relation_statement.cpp"
 
 #line 0 "src/parser/statement/select_statement.cpp"
 #include "src/parser/statement/select_statement.cpp"

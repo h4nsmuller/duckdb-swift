@@ -37,3 +37,6 @@
 #line 0 "src/function/scalar/variant/variant_utils.cpp"
 #include "src/function/scalar/variant/variant_utils.cpp"
 
+#line 0 "src/function/scalar/variant/variant_value.cpp"
+#include "src/function/scalar/variant/variant_value.cpp"
+

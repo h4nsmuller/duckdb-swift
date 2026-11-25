@@ -4,6 +4,9 @@
 #line 0 "src/common/types/bignum.cpp"
 #include "src/common/types/bignum.cpp"
 
+#line 0 "src/common/types/bignum_decimal.cpp"
+#include "src/common/types/bignum_decimal.cpp"
+
 #line 0 "src/common/types/bit.cpp"
 #include "src/common/types/bit.cpp"
 

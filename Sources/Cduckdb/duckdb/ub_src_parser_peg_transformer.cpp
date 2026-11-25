@@ -88,8 +88,11 @@
 #line 0 "src/parser/peg/transformer/transform_external_resource.cpp"
 #include "src/parser/peg/transformer/transform_external_resource.cpp"
 
-#line 0 "src/parser/peg/transformer/transform_generated.cpp"
-#include "src/parser/peg/transformer/transform_generated.cpp"
+#line 0 "src/parser/peg/transformer/transform_external_resource_source.cpp"
+#include "src/parser/peg/transformer/transform_external_resource_source.cpp"
+
+#line 0 "src/parser/peg/transformer/transform_frame_plan.cpp"
+#include "src/parser/peg/transformer/transform_frame_plan.cpp"
 
 #line 0 "src/parser/peg/transformer/transform_generated_trampoline.cpp"
 #include "src/parser/peg/transformer/transform_generated_trampoline.cpp"
